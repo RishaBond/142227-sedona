@@ -1,0 +1,22 @@
+#wrapper {
+	max-width: 1200px;
+	margin: auto;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav li{
+	margin-right: 150px;
+	float: left;
+	font: 14px 'Arial', sans-serif;
+}
+
+nav li:last-child{
+	margin-right: 0;
+}
+
+.top-menu li {
+	display: inline-block;
+}

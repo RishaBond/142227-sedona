@@ -2,11 +2,104 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+  <wrapper>
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation row">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Фото и видео</a>
+            </li>
+            <li>
+              <a href="#">Карта штата</a>
+            </li>
+            <li>
+              <a href="#">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container">
+      	<img src="img/background.png" alt="Седона">
+      </div>
+    </header>
+    <main class="container">
+      <div class="index-logo">
+        <img src="img/logo.png" alt="Лого">
+      </div>
+      <section>
+      	<div class="features-item">
+      		<b>НАСТОЯЩИЙ ГОРОДОК</b>
+      		<p>— №1 —</p>
+      		<p>  СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+      	</div>
+      	<div class="features-image"><img src="img/features-image1.png"></div>
+      </section>
+       <section class="promo">
+        <div class="promo-item">
+          <b>ЖИЛЬЕ</b>
+          <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        </div>
+        <div class="promo-item">
+        	<b>ЕДА</b>
+          <p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+        </div>
+        <div class="promo-item">
+        	<b>СУВЕНИРЫ</b>
+          <p>Не только китайского, но и местного производства!</p>
+        </div>
+      </section>
+       <section>
+      	<div class="features-item">
+      		<b>ТАМ ЕСТЬ  МОСТ ДЬЯВОЛА</b>
+      		<p>— №2 —</p>
+      		<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+      	</div>
+      	<div class="features-image"><img src="img/features-image2.png"></div>
+      </section>
+      <section class="features">
+        <div class="features-item">
+          <b>НЕБОЛЬШАЯ ПЛОЩАДЬ</b>
+          <p>— №3 —</p>
+          <p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+        </div>
+        <div class="features-item">
+        	<b>КРАСИВАЯ ДОРОГА</b>
+        	<p>— №4 —</p>
+          <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
+        </div>
+        <div class="features-item">
+        	<b>МАЛО ТУРИСТОВ</b>
+        	<p>— №5 —</p>
+          <p>БОЛЬШЕНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+    	<div class="index">
+    		<b>ЗАИНТЕРЕСОВАЛИСЬ?</b>
+    		<p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+    	</div>
+    	<div class="index-content">
+          <h2 class="index-content-title">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
+          <form class="appointment-form">
+            <input type="text" name="date in" value="" placeholder="ДАТА ЗАЕЗДА">
+            <input type="text" name="date out" value="" placeholder="ДАТА ВЫЕЗДА">
+            <input type="text" name="adults" value="" placeholder="ВЗРОСЛЫЕ">
+            <input type="tel" name="children" value="" placeholder="ДЕТИ">
+            <button class="btn" type="submit">НАЙТИ</button>
+          </form>
+        </div>
+        <section class="map">
+        	
+        </section>
+    </footer>
+  </wrapper>
   </body>
 </html>
