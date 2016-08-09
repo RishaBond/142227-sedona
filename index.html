@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Седона</title>
+    <link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   <wrapper>
     <header class="main-header">
-      <div class="container">
+      <div>
         <nav class="main-navigation row">
           <ul>
             <li>
@@ -20,17 +22,17 @@
               <a href="#">Карта штата</a>
             </li>
             <li>
-              <a href="#">Гостиницы</a>
+              <a href="hotels.html">Гостиницы</a>
             </li>
           </ul>
         </nav>
-        <section class="intro">
-        <img src="img/logo.png" alt="Лого">
+        <section class="logo">
+        	<a href="index.html"><img src="img/logo.png" alt="Лого"></a>
       	</section>
       </div>
-      <div>
+      <section>
       	<img src="img/background.png" alt="Седона">
-      </div>
+      </section>
       <section></section>
     </header>
     <main>
@@ -86,30 +88,38 @@
     	<div class="index">
     		<h2>Заинтересовались?</h2>
     		<p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седонеы</p>
+    		<h2 class="index-content-title">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
     	</div>
-    	<div class="index-content">
-          <h2 class="index-content-title">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
-          <form class="appointment-form">
-            <input type="text" name="date in" value="" placeholder="ДАТА ЗАЕЗДА">
-            <input type="text" name="date out" value="" placeholder="ДАТА ВЫЕЗДА">
+      <div class="index-content">
+        <form>
+			  	<p>Дата заезда: <input type="date" name="calendar"></p>
+			  </form>
+				<form>
+			  	<p>Дата выезда: <input type="date" name="calendar"></p>
+			  </form>
+				<div>
+          <form>
             <input type="text" name="adults" value="" placeholder="ВЗРОСЛЫЕ">
             <input type="tel" name="children" value="" placeholder="ДЕТИ">
-            <button class="btn" type="submit">НАЙТИ</button>
           </form>
         </div>
-        <section class="map">
-        	<img src="img/map1.png">
-        </section>
-        <section class="footer-social">
-        	<b>#visitsedona</b>
+        <button class="btn" type="submit">НАЙТИ</button>
+      </div>
+      <section class="map">
+      	<img src="img/map1.png">
+      </section>
+      <div>
+  			<b>#visitsedona</b>
+  		</div>
+        <div class="footer-social">
           <a class="social-btn social-btn-tw" href="#"></a>
           <a class="social-btn social-btn-fb" href="#"></a>
           <a class="social-btn social-btn-yt" href="#"></a>
-        </section>
-        <section class="footer-copyright">
+        </div>
+        <div class="footer-copyright">
           <p>WEBSITE BY</p>
-          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-        </section>
+          <a class="btn" href="https://htmlacademy.ru"><img src="img/academy.png"></a>
+        </div>
     </footer>
   </wrapper>
   </body>
