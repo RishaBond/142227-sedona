@@ -8,9 +8,9 @@
   </head>
   <body>
   <wrapper>
-    <header class="main-header">
-      <div>
-        <nav class="main-navigation row">
+    <header>
+      <div class="nav">
+        <nav>
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -33,7 +33,12 @@
     </header>
     <main>
     	<section class="background">
-      	<img src="img/background.png" alt="Седона">
+      	<img src="img/background.jpg" alt="Седона">
+      	<img src="img/after-background1.png" width="1200px" height="57px">
+      </section>
+      <section class="review">
+      	<h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
+      	<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
       </section>
       <section class="features">
       	<div class="features-item">
@@ -41,29 +46,32 @@
       		<span>— №1 —</span>
       		<p>  Седона - не аттракцион для туристов, твм течет своя жизнь</p>
       	</div>
-      	<div class="features-image"><img src="img/features-image1.png"></div>
+      	<div class="features-image"><img src="img/features-image1.jpg"></div>
       </section>
        <section class="promo">
         <div class="promo-item">
+        	<img src="img/icon/icon-house.png" width="75px" height="72px">
           <h2>Жилье</h2>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </div>
         <div class="promo-item">
+        	<img src="img/icon/icon-burger.png" width="74px" height="69px">
         	<h2>Еда</h2>
           <p>Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
         </div>
         <div class="promo-item">
+        	<img src="img/icon/icon-gift.png" width="63px" height="75px">
         	<h2>Сувениры</h2>
           <p>Не только китайского, но и местного производства!</p>
         </div>
       </section>
-       <section>
+       <section class="features">
       	<div class="features-item">
       		<h2>Там есть мост дьявола</h2>
       		<span>— №2 —</span>
       		<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
       	</div>
-      	<div class="features-image"><img src="img/features-image2.png"></div>
+      	<div class="features-image"><img src="img/features-image2.jpg"></div>
       </section>
       <section class="features">
         <div class="features-item">
@@ -91,25 +99,29 @@
       	<form>
 			  	<label>Дата заезда: <input type="date" name="calendar"></label>
 			  	<label>Дата выезда: <input type="date" name="calendar"></label>
-					<div>
+					<div class="selection">
             <input type="text" name="adults" value="" placeholder="ВЗРОСЛЫЕ">
          	</div>
-         	<div>
+         	<div class="selection">
             <input type="tel" name="children" value="" placeholder="ДЕТИ">
 	        </div>
+	        <button class="btn" type="submit">НАЙТИ</button>
         </form>
-        <button class="btn" type="submit">НАЙТИ</button>
       </section>
       <section class="map">
       	<img src="img/map1.png">
       </section>
     </main>
     <footer>
+        <div class="footer-visit">
+  				<a href="#">#visitsedona</a>
+  			</div>
         <div class="footer-social">
-        	<a href="#">#visitsedona</a>
-          <a class="social-btn social-btn-tw" href="#"></a>
-          <a class="social-btn social-btn-fb" href="#"></a>
-          <a class="social-btn social-btn-yt" href="#"></a>
+          <ul>
+          	<li><a class="social-btn social-btn-tw" href="#"></a></li>
+          	<li><a class="social-btn social-btn-fb" href="#"></a></li>
+          	<li><a class="social-btn social-btn-yt" href="#"></a></li>
+          </ul>
         </div>
         <div class="footer-copyright">
           <a class="btn" href="https://htmlacademy.ru"><span>WEBSITE BY</span><img src="img/academy.png"></a>
