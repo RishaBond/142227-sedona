@@ -26,16 +26,15 @@
             </li>
           </ul>
         </nav>
-        <section class="logo">
+        <div class="logo">
         	<a href="index.html"><img src="img/logo.png" alt="Лого"></a>
-      	</section>
+      	</div>
       </div>
-      <section>
-      	<img src="img/background.png" alt="Седона">
-      </section>
-      <section></section>
     </header>
     <main>
+    	<section class="background">
+      	<img src="img/background.png" alt="Седона">
+      </section>
       <section class="features">
       	<div class="features-item">
       		<h2>Настоящий городок</h2>
@@ -83,42 +82,37 @@
           <p>Большинство едет в Гранд Каньон и толпится там</p>
         </div>
       </section>
-    </main>
-    <footer>
-    	<div class="index">
-    		<h2>Заинтересовались?</h2>
-    		<p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седонеы</p>
-    		<h2 class="index-content-title">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
-    	</div>
-      <div class="index-content">
-        <form>
-			  	<p>Дата заезда: <input type="date" name="calendar"></p>
-			  </form>
-				<form>
-			  	<p>Дата выезда: <input type="date" name="calendar"></p>
-			  </form>
-				<div>
-          <form>
+	    <section class="info">
+	    		<h2>Заинтересовались?</h2>
+	    		<p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седонеы</p>
+	    		<a href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+	    </section>
+      <section class="index-content">
+      	<form>
+			  	<label>Дата заезда: <input type="date" name="calendar"></label>
+			  	<label>Дата выезда: <input type="date" name="calendar"></label>
+					<div>
             <input type="text" name="adults" value="" placeholder="ВЗРОСЛЫЕ">
+         	</div>
+         	<div>
             <input type="tel" name="children" value="" placeholder="ДЕТИ">
-          </form>
-        </div>
+	        </div>
+        </form>
         <button class="btn" type="submit">НАЙТИ</button>
-      </div>
+      </section>
       <section class="map">
       	<img src="img/map1.png">
       </section>
-      <div>
-  			<b>#visitsedona</b>
-  		</div>
+    </main>
+    <footer>
         <div class="footer-social">
+        	<a href="#">#visitsedona</a>
           <a class="social-btn social-btn-tw" href="#"></a>
           <a class="social-btn social-btn-fb" href="#"></a>
           <a class="social-btn social-btn-yt" href="#"></a>
         </div>
         <div class="footer-copyright">
-          <p>WEBSITE BY</p>
-          <a class="btn" href="https://htmlacademy.ru"><img src="img/academy.png"></a>
+          <a class="btn" href="https://htmlacademy.ru"><span>WEBSITE BY</span><img src="img/academy.png"></a>
         </div>
     </footer>
   </wrapper>
