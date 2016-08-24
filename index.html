@@ -8,9 +8,9 @@
   </head>
   <body>
   <wrapper>
-    <header>
-      <div class="nav">
-        <nav>
+    <header class="main-header">
+      <div class="clearfix">
+        <nav class="main-nav">
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -31,10 +31,14 @@
       	</div>
       </div>
     </header>
-    <main>
+    <main class="content">
     	<section class="background">
-      	<img src="img/background.jpg" alt="Седона">
-      	<img src="img/after-background1.png" width="1200px" height="57px">
+    		<div class="on-background">
+      		<img src="img/on-background1.png" width="460px" height="340px" alt="Седона">
+      	</div>
+     	  <div class="after-background">
+      		<img src="img/after-background1.png" width="1200px" height="57px">
+      	</div>
       </section>
       <section class="review">
       	<h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -44,7 +48,7 @@
       	<div class="features-item">
       		<h2>Настоящий городок</h2>
       		<span>— №1 —</span>
-      		<p>  Седона - не аттракцион для туристов, твм течет своя жизнь</p>
+      		<p>  Седона - не аттракцион для туристов, там течет своя жизнь</p>
       	</div>
       	<div class="features-image"><img src="img/features-image1.jpg"></div>
       </section>
@@ -74,31 +78,37 @@
       	<div class="features-image"><img src="img/features-image2.jpg"></div>
       </section>
       <section class="features">
-        <div class="features-item">
+        <div class="features-item df">
           <h2>Небольшая площадь</h2>
           <span>— №3 —</span>
           <p>Все достопримечательности находятся очень близко</p>
         </div>
-        <div class="features-item">
+        <div class="features-item df">
         	<h2>Красивая дорога</h2>
         	<span>— №4 —</span>
           <p>Ехать в сторону Лас-Вегаса совсем не скучно!</p>
         </div>
-        <div class="features-item">
+        <div class="features-item df">
         	<h2>Мало туристов</h2>
         	<span>— №5 —</span>
           <p>Большинство едет в Гранд Каньон и толпится там</p>
         </div>
       </section>
-	    <section class="info">
+	    <section class="choose-hotel">
 	    		<h2>Заинтересовались?</h2>
 	    		<p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седонеы</p>
 	    		<a href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
 	    </section>
-      <section class="index-content">
+      <section class="form">
       	<form>
-			  	<label>Дата заезда: <input type="date" name="calendar"></label>
-			  	<label>Дата выезда: <input type="date" name="calendar"></label>
+			  	<div class="form-label">
+			  		<p>Дата заезда:</p> 
+			  		<input class="form-input" type="date" name="calendar">
+			  	</div>
+			  	<div class="form-label">
+			  		<p>Дата выезда:</p> 
+			  		<input class="form-input" type="date" name="calendar">
+			  	</div>
 					<div class="selection">
             <input type="text" name="adults" value="" placeholder="ВЗРОСЛЫЕ">
          	</div>
@@ -112,7 +122,7 @@
       	<img src="img/map1.png">
       </section>
     </main>
-    <footer>
+    <footer class="main-footer">
         <div class="footer-visit">
   				<a href="#">#visitsedona</a>
   			</div>
