@@ -9,44 +9,42 @@
 	<body>
 	  <wrapper>
 	    <header class="main-header">
-	      <div class="clearfix">
-	        <nav class="main-nav">
-	          <ul>
-	            <li>
-	              <a href="#">Информация</a>
-	            </li>
-	            <li>
-	              <a href="#">Фото и видео</a>
-	            </li>
-	            <li>
-	              <a href="#">Карта штата</a>
-	            </li>
-	            <li>
-	              <a href="hotels.html">Гостиницы</a>
-	            </li>
-	          </ul>
-	        </nav>
-	        <div class="logo">
-	        	<a href="index.html"><img src="img/logo.png" alt="Лого"></a>
-	      	</div>
-	      </div>
+        <nav class="main-nav">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Фото и видео</a>
+            </li>
+            <li>
+              <a href="#">Карта штата</a>
+            </li>
+            <li>
+              <a href="hotels.html">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="logo">
+        	<a href="index.html"><img src="img/logo.png" alt="Лого"></a>
+      	</div>
 	    </header>
 	    <main class="content">
 		    <section class="set">
 					<form class="set-form">
 						<div class="set-item">
 				    	<h2>Инфраструктура</h2>
-				    		<input type="checkbox" name="pool"><span>Бассейн</span>
-				    		<input type="checkbox" name="parcking"><span>Парковка</span>
-				    		<input type="checkbox" name="wi-fi"><span>WI-FI</span>
+				    		<label><input type="checkbox" name="pool">   Бассейн</label>
+				    		<label><input type="checkbox" name="parcking">   Парковка</label>
+				    		<label><input type="checkbox" name="wi-fi">   WI-FI</label>
 				    </div>
 				    <div class="set-item">
 				    	<h2>Тип жилья</h2>
-				    		<input type="checkbox" name="hostel"><span>Гостиницы</span>
-				    		<input type="checkbox" name="motel"><span>Мотель</span>
-				    		<input type="checkbox" name="appartment"><span>Апартаменты</span>
+				    		<label><input type="checkbox" name="hostel">   Гостиницы</label>
+				    		<label><input type="checkbox" name="motel">   Мотель</label>
+				    		<label><input type="checkbox" name="appartment">   Апартаменты</label>
 				    </div>
-				    <div class="set-item">
+				    <div class="set-item cost">
 				    	<h2>Стоимость в сутки(р):</h2>
 								<div class="set-item from">
 									<table>
@@ -80,12 +78,14 @@
 			    		<img src="img/hotel1.jpg" alt="">
 			    	</div>
 			    	<div class="catalog">
-			    		<a href="#"><h1>Amara resort &amp spa</h1></a>
-			    		<div class="catalog-item">
+			    		<div class="hotel-name">
+			    			<a href="#" class="name"><h1>Amara resort &amp spa</h1></a>
+			    		</div>	
+			    		<div class="catalog-item-hotel">
 			    			<span>Гостиница</span>
 					    		<a href="#">Подробнее</a>
 							</div>
-							<div class="catalog-item">
+							<div class="catalog-item-cost">
 								<span>от 3500р.</span>
 								<a href="#">Забронировать</a>
 							</div>
@@ -99,12 +99,14 @@
 			    		<img src="img/hotel2.jpg" alt="">
 			    	</div>
 			    	<div class="catalog">
-			    		<a href="#"><h1>Desert quail inn</h1></a>
-					    <div class="catalog-item">	
+			    		<div class="hotel-name">
+			    			<a href="#" class="name"><h1>Desert quail inn</h1></a>
+					   	</div> 
+					    <div class="catalog-item-hotel">	
 					    	<span>Мотель</span>
 					    	<a href="#">Подробнее</a>
 							</div>
-							<div class="catalog-item">
+							<div class="catalog-item-cost">
 								<span>от 2000р.</span>
 								<a href="#">Забронировать</a>
 					    	</form>
@@ -119,12 +121,14 @@
 			    		<img src="img/hotel3.jpg" alt="">
 			    	</div>
 			    	<div class="catalog">
-			    		<a href="#"><h1>Villas at poco diablo</h1></a>
-			    		<div class="catalog-item">
+			    		<div class="hotel-name">
+			    			<a href="#" class="name"><h1>Villas at poco diablo</h1></a>
+			    		</div>	
+			    		<div class="catalog-item-hotel">
 					    	<span>Апартаменты</span>
 					    	<a href="#">Подробнее</a>
 							</div>
-							<div class="catalog-item">
+							<div class="catalog-item-cost">
 								<span>от 4000р.</span>
 								<a href="#">Забронировать</a>
 							</div>
