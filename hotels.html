@@ -5,7 +5,7 @@
 	    <title>Седона</title>
 	    <link rel="stylesheet" href="css/normalize.css">
 			<link rel="stylesheet" href="css/style.css">
-			<link href="fonts/PT_Sans.zip" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
 	</head>
 	<body>
 	  <wrapper>
@@ -32,29 +32,37 @@
 	    </header>
 	    <main class="content">
 		    <section class="set">
-					<form class="set-form">
-						<div class="set-item">
-				    	<h2>Инфраструктура</h2>
-				    		<label><input type="checkbox" name="pool">   Бассейн</label>
-				    		<label><input type="checkbox" name="parcking">   Парковка</label>
-				    		<label><input type="checkbox" name="wi-fi">   WI-FI</label>
-				    </div>
-				    <div class="set-item">
-				    	<h2>Тип жилья</h2>
-				    		<label><input type="checkbox" name="hostel">   Гостиницы</label>
-				    		<label><input type="checkbox" name="motel">   Мотель</label>
-				    		<label><input type="checkbox" name="appartment">   Апартаменты</label>
-				    </div>
-				    <div class="set-item cost">
-				    	<h2>Стоимость в сутки(р):</h2>
-								<div class="set-item from">
-									<table>
-										<tr>От 0   </tr>
-										<tr>До 3000</tr>
-									</table>
-								</div>
-						</div>
-					</form>
+		    	<div class="catalog-filter">
+						<form class="form-filter">
+							<div class="set-item">
+					    	<h2>Инфраструктура:</h2>
+					    		<input type="checkbox" id="ch1"name="pool">
+					    		<label for="ch1">Бассейн</label>
+					    		<input type="checkbox" id="ch2" name="parcking">
+					    		<label for="ch2">Парковка</label>
+					    		<input type="checkbox" id="ch3" name="wi-fi">
+					    		<label for="ch3">WI-FI</label>
+					    </div>
+					    <div class="set-item">
+					    	<h2>Тип жилья:</h2>
+					    		<input type="checkbox" id="ch4" name="hostel">
+					    		<label for="ch4">Гостиницы</label>
+					    		<input type="checkbox" id="ch5" name="motel">
+					    		<label for="ch5">Мотель</label>
+					    		<input type="checkbox" id="ch6" name="appartment">
+					    		<label for="ch6">Апартаменты</label>
+					    </div>
+					    <div class="set-item cost">
+					    	<h2>Стоимость в сутки(р):</h2>
+									<div class="set-item from">
+										<table>
+											<tr>От 0   </tr>
+											<tr>До 3000</tr>
+										</table>
+									</div>
+							</div>
+						</form>
+					</div>
 		    </section>
 		    <section class="sorting">
 		    	<div class="sorting-find">
@@ -138,15 +146,14 @@
   			<div class="footer-visit">
   				<a href="#">#visitsedona</a>
   			</div>
-        <div class="footer-social">
-        	<ul>
-          	<li><a class="social-btn social-btn-tw" href="#"></a></li>
-          	<li><a class="social-btn social-btn-fb" href="#"></a></li>
-          	<li><a class="social-btn social-btn-yt" href="#"></a></li>
-          </ul>
-        </div>
+  			<div class="footer-social">
+         	<a class="sprite sprite-sprite-tw" href="#">twitter</a>
+         	<a class="sprite sprite-sprite-fb" href="#">facebook</a>
+         	<a class="sprite sprite-sprite-yt" href="#">youtube</a>
+      	</div>
         <div class="footer-copyright">
-          <a class="btn" href="https://htmlacademy.ru"><span>WEBSITE BY</span><img src="img/academy.png"></a>
+        	<a href="https://htmlacademy.ru">WEBSITE BY </a>
+          <span class="sprite sprite-ha">HTML ACADEMY</span>
         </div>
 	    </footer>
 	  </wrapper>
