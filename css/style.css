@@ -107,25 +107,22 @@ header{
 .sprite{
 	display: inline-block;
 	vertical-align: top;
-	width: 46px;
-	height: 46px;
 	font-size: 0;
 	position: relative;
-	background: #81b3d2;
 }
 .sprite::before{
 	content: "";
 	position: absolute;
 	top: 50%;
-	left:50%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	background-image: url(../img/icon/sprite.png);
 	background-image: no-repeat;
 }
 wrapper {
 	display: block;
-	width:1200px;
-	margin:0 auto;
+	width: 1200px;
+	margin: 0 auto;
 	align-items: center;
 }
 nav .main-nav{
@@ -336,9 +333,16 @@ nav .main-nav{
 	width: 400px;
 }
 .footer-social{
-	align-items: center;
-	margin: 0 auto;
+	display: block;
+	vertical-align: top;
+	text-align: center;
 	width: 400px;
+	margin: 0 auto;
+}
+.footer-social a{
+	background-color: #81b3d2;
+	width: 46px;
+	height: 46px;
 }
 .footer-copyright{
 	display: flex;
@@ -363,16 +367,19 @@ nav .main-nav{
     width: 10px;
     height: 19px;
     background-position: -223px -73px;
+    background: no-repeat;
 }
 .sprite-sprite-tw::before {
     width: 17px;
     height: 15px;
     background-position: -247px -73px;
+    background: no-repeat;
 }
 .sprite-sprite-yt::before {
     width: 20px;
     height: 16px;
     background-position: -173px -102px;
+    background: no-repeat;
 }
 .sprite-ha{
 	background: #fff;
@@ -382,13 +389,12 @@ nav .main-nav{
     height: 39px;
     background-position: -7px -43px;
 }
-.catalog-filter{
+.form-filter{
+	width: 1200px;
+	height: 220px;
+}
+.set{
 	background-image: url(../img/background2.jpg);
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
-	text-transform: uppercase;
-	margin: 0 auto;
 	width: 1200px;
 	height: 220px
 }
@@ -396,7 +402,7 @@ nav .main-nav{
 	display: inline-flex;
 	justify-content: flex-start;
 	align-items: flex-start;
-	width: 300px;
+	width: 250px;
 	height: 220px;
 	padding-top: 10px;
 	padding-left: 70px; 
@@ -408,7 +414,7 @@ nav .main-nav{
 .set-item h2{
 	height: 30px;
 	margin-top: 0;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	font-size: 16px;
 }
 .set-item label{
@@ -448,9 +454,7 @@ input[type="checkbox"]:checked+label::after{
 	left: 0;
 }
 .cost{
-	display: flex;
-	width: 350px;
-	justify-content: flex-start;
+	width: 400px;
 }
 .from{
 	border: 2px solid #fff; 
@@ -494,15 +498,29 @@ input[type="checkbox"]:checked+label::after{
 	justify-content: flex-start;
 	align-items: center;
 	text-align: center;
-	width: 150px;
-	padding-left: 20px;
+	width: 100px;
+	padding-left: 15px;
 	text-align: center;
 }
 .sorting-item ul a{
 	text-decoration: none;
+	font-size: 12px;
 }
 .sorting-change{
 	width: 110px;
+}
+.sprite-icon-indicator1::before {
+    width: 11px;
+    height: 10px;
+    background-position: -223px -7px;
+    background-color: #fff;
+}
+
+.sprite-icon-indicator2::before {
+    width: 11px;
+    height: 10px;
+    background-position: -248px -7px;
+    background-color: #fff;
 }
 .hotel{
 	height: 490px;
@@ -526,7 +544,7 @@ input[type="checkbox"]:checked+label::after{
 	width: 781px;
 	height: 90px;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 14px;
 }
 .catalog h1{
 	height: 25px;
@@ -537,6 +555,7 @@ input[type="checkbox"]:checked+label::after{
 .catalog h1 a{
 	text-decoration: none;
 	color: #000;
+	font-size: 21px;
 }
 .rating{
 	width: 110px;
@@ -576,5 +595,5 @@ input[type="checkbox"]:checked+label::after{
 	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
-	padding-top: 6px;
+	padding-top: 5px;
 }
