@@ -199,14 +199,13 @@ nav .main-nav{
 .background{
 	background-image: url(../img/background.jpg);
 	width: 1200px;
-	height: 520px;
+	height: 500px;
 }
 .on-background{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-top: 70px;
-	padding-bottom: 15px;
+	padding-top: 63px;
 	margin-bottom: 40px;
 }
 .after-background{
@@ -244,29 +243,24 @@ nav .main-nav{
 	background-color: #81b3d2;
 	color: #fff;
 	flex-direction: column;
-	padding: 25px;
+	padding-top: 35px;
 	text-transform: uppercase;
 	line-height: 1.5;
-	font-weight: bold;
 }
 .features-item h2{
-	width: 175px;
+	font-size: 20px;
+	line-height: 1;
 }
 .features-item span{
-	font-weight: normal;
-	font-size: 16px;
+	font-size: 14px;
+	padding: 10px;
 }
 .features-item p{
-	font-weight: normal;
 	font-size: 14px;
-	width: 300px;
 }
 .df{
 	background-color: #eee;
 	color: #000;
-}
-.df p{
-	width: 266px;
 }
 .features-image{
 	display: flex;
@@ -294,7 +288,6 @@ nav .main-nav{
 .promo-item p{
 	font-weight: normal;
 	font-size: 15px;
-	width: 305px;
 }
 .sprite-icon-burger::before {
 	width: 74px;
@@ -574,6 +567,8 @@ input[type="checkbox"]:checked+label::after{
 }
 .sorting-change{
 	width: 110px;
+}
+.sorting-change span:first-child{
 	padding-right: 20px;
 }
 .sprite-icon-indicator1::before {
@@ -624,6 +619,7 @@ background-position: -1093px -5px;
 .rating{
 	width: 110px;
 }
+
 .catalog-item-hotel{
 	display: flex;
 	justify-content: flex-start;
