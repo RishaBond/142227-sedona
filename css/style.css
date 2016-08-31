@@ -163,19 +163,21 @@ wrapper {
 }
 nav .main-nav{
 	width: 1200px;
-	height: 50px;
+	height: 60px;
 	background-color: #fff;
 }
 .main-nav ul{
 	display: flex;
-	padding: 5px 0;
+	padding: 10px 0;
 	font-size: 14px;
 	line-height: 30px;
 	justify-content: flex-start;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	list-style-type: none
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 5px;
 }
 .main-nav li{
 	width: 240px;
@@ -191,7 +193,7 @@ nav .main-nav{
 .logo{
 	position: absolute;
 	top: 0;
-	left: 45%;
+	left: 44%;
 	margin: 0 auto;
 	line-height: 0;
 	font-size: 0;
@@ -220,13 +222,13 @@ nav .main-nav{
 	width: 650px;
 	min-height: 100px;
 	margin: 20px auto;
-	padding: 15px;
+	padding: 20px;
 	text-transform: uppercase;
 	line-height: 1.5;
 }
 .review h2{
-	font-size: 22px;
-	line-height: 1;
+	font-size: 21px;
+	line-height: 1.2;
 }
 .review p{
 	font-size: 14px;
@@ -394,12 +396,12 @@ nav .main-nav{
 	height: 48px;
 	background-position: -1185px -5px;
 }
-.sprite-sprite-fb-down {
+.sprite-sprite-fb-down:active::before {
 	width: 47px;
 	height: 48px;
 	background-position: -1242px -5px;
 }
-.sprite-sprite-fb-hvr {
+.sprite-sprite-fb-hvr:hover::before {
 	width: 47px;
 	height: 48px;
 	background-position: -1299px -5px;
@@ -409,12 +411,12 @@ nav .main-nav{
 	height: 46px;
 	background-position: -1356px -5px;
 }
-.sprite-sprite-tw-down {
+.sprite-sprite-tw-down:active::before {
 	width: 46px;
 	height: 48px;
 	background-position: -1410px -5px;
 }
-.sprite-sprite-tw-hvr {
+.sprite-sprite-tw-hvr:hover::before {
 	width: 46px;
 	height: 48px;
 	background-position: -1466px -5px;
@@ -424,12 +426,12 @@ nav .main-nav{
 	height: 48px;
 	background-position: -1522px -5px;
 }
-.sprite-sprite-yt-down {
+.sprite-sprite-yt-down:active::before {
 	width: 46px;
 	height: 48px;
 	background-position: -1578px -5px;
 }
-.sprite-sprite-yt-hvr {
+.sprite-sprite-yt-hvr:hover::before {
 	width: 46px;
 	height: 48px;
 	background-position: -1634px -5px;
@@ -617,10 +619,23 @@ background-position: -1093px -5px;
 	color: #000;
 	font-size: 21px;
 }
+.catalog h1 a:hover{
+	color: #81b3d2;
+}
+.catalog h1 a:active{
+	color: #b2b2b2;
+}
 .rating{
 	width: 110px;
 }
-
+.raiting-sprite{
+	margin-bottom: 45px;
+}
+.sprite-icon-star::before {
+	width: 18px;
+	height: 17px;
+	background-position: -1114px -5px;
+}
 .catalog-item-hotel{
 	display: flex;
 	justify-content: flex-start;
