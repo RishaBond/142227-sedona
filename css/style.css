@@ -1,9 +1,12 @@
 *{
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+						box-sizing: border-box;
 }
 body {
 	width: 100%;
-	font-family: 'PT Sans', sans-serif;
+	font-family: "PT Sans", "Arial" sans-serif;
+	padding: 0 35px;
 }
 header{
 	position: relative;
@@ -396,12 +399,12 @@ nav .main-nav{
 	height: 48px;
 	background-position: -1185px -5px;
 }
-.sprite-sprite-fb-down:active::before {
+.sprite-sprite-fb-down:active:before {
 	width: 47px;
 	height: 48px;
 	background-position: -1242px -5px;
 }
-.sprite-sprite-fb-hvr:hover::before {
+.sprite-sprite-fb-hvr:hover:before {
 	width: 47px;
 	height: 48px;
 	background-position: -1299px -5px;
@@ -411,12 +414,12 @@ nav .main-nav{
 	height: 46px;
 	background-position: -1356px -5px;
 }
-.sprite-sprite-tw-down:active::before {
+.sprite-sprite-tw-down:active:before {
 	width: 46px;
 	height: 48px;
 	background-position: -1410px -5px;
 }
-.sprite-sprite-tw-hvr:hover::before {
+.sprite-sprite-tw-hvr:hover:before {
 	width: 46px;
 	height: 48px;
 	background-position: -1466px -5px;
@@ -426,12 +429,12 @@ nav .main-nav{
 	height: 48px;
 	background-position: -1522px -5px;
 }
-.sprite-sprite-yt-down:active::before {
+.sprite-sprite-yt-down:active:before {
 	width: 46px;
 	height: 48px;
 	background-position: -1578px -5px;
 }
-.sprite-sprite-yt-hvr:hover::before {
+.sprite-sprite-yt-hvr:hover:before {
 	width: 46px;
 	height: 48px;
 	background-position: -1634px -5px;
@@ -441,12 +444,12 @@ nav .main-nav{
 	height: 39px;
 	background-position: -367px -5px;
 }
-.sprite-ha-down {
+.sprite-ha-down:active:before {
 	width: 113px;
 	height: 39px;
 	background-position: -490px -5px;
 }
-.sprite-ha-hvr {
+.sprite-ha-hvr:hover:before {
 	width: 113px;
 	height: 39px;
 	background-position: -613px -5px;
@@ -595,7 +598,7 @@ background-position: -1093px -5px;
 	flex-wrap: wrap;
 	height: 150px;
 }
-.image{
+.catalog-image{
 	width: 165px;
 	height: 90px;
 }
@@ -656,6 +659,13 @@ background-position: -1093px -5px;
 	font-size: 13px;
 	padding-top: 5px;
 }
+.catalog-item-hotel a:hover{
+	background: #669ec0;
+}
+.catalog-item-hotel a:active{
+	color: #88b6d1;
+	background: #5496bd;
+}
 .catalog-item-cost{
 	display: flex;
 	justify-content: flex-start;
@@ -674,4 +684,12 @@ background-position: -1093px -5px;
 	padding-top: 5px;
 	font-weight: bold;
 	font-size: 13px;
+}
+.catalog-item-cost a:hover{
+	background: #604e43;
+}
+
+.catalog-item-cost a:active{
+	color: #857871;
+	background: #503e33;
 }
