@@ -5,7 +5,7 @@
 }
 body {
 	width: 100%;
-	font-family: "PT Sans", "Arial" sans-serif;
+	font-family: "PT Sans", sans-serif;
 	padding: 0 35px;
 }
 header{
@@ -185,6 +185,7 @@ nav .main-nav{
 .main-nav li{
 	width: 240px;
 	color: #000;
+	font-family: "PT Sans", "Arial" sans-serif;
 }
 .main-nav ul a{
 	text-decoration: none;
@@ -235,6 +236,7 @@ nav .main-nav{
 }
 .review p{
 	font-size: 14px;
+	color: #333333;
 }
 .features{
 	display: flex;
@@ -263,6 +265,7 @@ nav .main-nav{
 }
 .features-item p{
 	font-size: 14px;
+	color: #333333;
 }
 .df{
 	background-color: #eee;
@@ -294,6 +297,7 @@ nav .main-nav{
 .promo-item p{
 	font-weight: normal;
 	font-size: 15px;
+	color: #333333;
 }
 .sprite-icon-burger::before {
 	width: 74px;
@@ -315,9 +319,9 @@ nav .main-nav{
 	display: flex;
 	text-align: center;
 	flex-direction: column;
-	margin: 50px auto;
+	margin: 30px auto;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-size: 20px;
 }
 .choose-hotel a{
 	display: flex;
@@ -334,6 +338,8 @@ nav .main-nav{
 .choose-hotel p{
 	font-weight: normal;
 	font-size: 15px;
+	color: #333333;
+	line-height: 1.5;
 }
 .form{
 	margin: 55px;
@@ -578,14 +584,14 @@ input[type="checkbox"]:checked+label::after{
 	padding-right: 20px;
 }
 .sprite-icon-indicator1::before {
-width: 11px;
-height: 10px;
-background-position: -1072px -5px;
+	width: 11px;
+	height: 10px;
+	background-position: -1072px -5px;
 }
 .sprite-icon-indicator2::before {
-width: 11px;
-height: 10px;
-background-position: -1093px -5px;
+	width: 11px;
+	height: 10px;
+	background-position: -1093px -5px;
 }
 .hotel{
 	height: 490px;
@@ -630,9 +636,18 @@ background-position: -1093px -5px;
 }
 .rating{
 	width: 110px;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	color: #666666;
 }
+.rating-text{
+	background: #f2f2f2;
+	width: 105px;
+	height: 30px
+} 
 .raiting-sprite{
-	margin-bottom: 45px;
+	margin-bottom: 40px;
 }
 .sprite-icon-star::before {
 	width: 18px;
@@ -645,6 +660,7 @@ background-position: -1093px -5px;
 	flex-direction: column;
 	height: 55px;
 	margin-top: 10px;
+	color: #5c5c5c;
 }
 .catalog-item-hotel a{
 	text-align: center;
@@ -672,6 +688,7 @@ background-position: -1093px -5px;
 	flex-direction: column;
 	height: 55px;
 	margin-top: 10px;
+	color: #5c5c5c;
 }
 .catalog-item-cost a{
 	text-align: center;
