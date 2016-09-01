@@ -265,11 +265,13 @@ nav .main-nav{
 }
 .features-item p{
 	font-size: 14px;
-	color: #333333;
 }
 .df{
 	background-color: #eee;
 	color: #000;
+}
+.df p{
+	color: #333333;
 }
 .features-image{
 	display: flex;
