@@ -251,7 +251,7 @@ nav .main-nav{
 	background-color: #81b3d2;
 	color: #fff;
 	flex-direction: column;
-	padding-top: 35px;
+	padding-top: 37px;
 	text-transform: uppercase;
 	line-height: 1.5;
 }
@@ -269,6 +269,7 @@ nav .main-nav{
 .df{
 	background-color: #eee;
 	color: #000;
+	padding-top: 32px;
 }
 .df p{
 	color: #333333;
@@ -295,10 +296,16 @@ nav .main-nav{
 	line-height: 1.5;
 	font-weight: bold;
 }
+.promo-item h2{
+	font-size: 21px;
+	line-height: 1;
+	padding-top: 15px; 
+}
 .promo-item p{
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 14px;
 	color: #333333;
+	margin-top: 5px;
 }
 .sprite-icon-burger::before {
 	width: 74px;
@@ -336,10 +343,15 @@ nav .main-nav{
 	align-items: center;
 	justify-content: center;
 	text-decoration: none;
+	font-weight: bold;
+}
+.choose-hotel h2{
+	margin-top: 17px;
+	margin-bottom: 15px;
 }
 .choose-hotel p{
 	font-weight: normal;
-	font-size: 15px;
+	font-size: 14px;
 	color: #333333;
 	line-height: 1.5;
 }
@@ -372,6 +384,9 @@ nav .main-nav{
 	height: 593px;
 	width: 100%;
 }
+.main-footer{
+	height: 120px;
+}
 .footer-visit{
 	display: flex;
 	justify-content: center;
@@ -397,6 +412,7 @@ nav .main-nav{
 	color: #000;
 	font-weight: bold;
 	text-decoration: none;
+	font-size: 21px;
 }
 .footer-copyright a{
 	color: #000;
