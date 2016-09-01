@@ -231,7 +231,7 @@ nav .main-nav{
 	line-height: 1.5;
 }
 .review h2{
-	font-size: 21px;
+	font-size: 21.5px;
 	line-height: 1.2;
 }
 .review p{
@@ -289,10 +289,9 @@ nav .main-nav{
 	text-align: center;
 	width: 400px;
 	flex-direction: column;
-	padding: 20px 30px;
+	padding: 20px 20px;
 	text-transform: uppercase;
-	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-top: 40px;
 	line-height: 1.5;
 	font-weight: bold;
 }
@@ -336,6 +335,7 @@ nav .main-nav{
 	text-align: center;
 	align-items: center;
 	justify-content: center;
+	text-decoration: none;
 }
 .choose-hotel p{
 	font-weight: normal;
