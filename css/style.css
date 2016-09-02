@@ -19,145 +19,173 @@ header{
 	font-size: 0;
 }
 .sprite-check1 {
-	width: 22px;
-	height: 22px;
-	background-position: -5px -5px;
+  width: 22px;
+  height: 22px;
+  background-position: -5px -5px;
 }
+
 .sprite-check2 {
-	width: 26px;
-	height: 22px;
-	background-position: -37px -5px;
+  width: 26px;
+  height: 22px;
+  background-position: -37px -5px;
 }
+
 .sprite-circle1 {
-	width: 20px;
-	height: 23px;
-	background-position: -73px -5px;
+  width: 20px;
+  height: 23px;
+  background-position: -73px -5px;
 }
+
 .sprite-circle2 {
-	width: 20px;
-	height: 23px;
-	background-position: -103px -5px;
+  width: 20px;
+  height: 23px;
+  background-position: -103px -5px;
 }
+
 .sprite-circuit {
-	width: 224px;
-	height: 36px;
-	background-position: -133px -5px;
+  width: 224px;
+  height: 36px;
+  background-position: -133px -5px;
 }
+
 .sprite-ha {
-	width: 113px;
-	height: 39px;
-	background-position: -367px -5px;
+  width: 113px;
+  height: 39px;
+  background-position: -367px -5px;
 }
+
 .sprite-ha-down {
-	width: 113px;
-	height: 39px;
-	background-position: -490px -5px;
+  width: 113px;
+  height: 39px;
+  background-position: -490px -5px;
 }
+
 .sprite-ha-hvr {
-	width: 113px;
-	height: 39px;
-	background-position: -613px -5px;
+  width: 113px;
+  height: 39px;
+  background-position: -613px -5px;
 }
+
 .sprite-icon-burger {
-	width: 74px;
-	height: 70px;
-	background-position: -736px -5px;
+  width: 74px;
+  height: 70px;
+  background-position: -736px -5px;
 }
+
 .sprite-icon-calendar {
-	width: 21px;
-	height: 22px;
-	background-position: -820px -5px;
+  width: 21px;
+  height: 22px;
+  background-position: -820px -5px;
 }
+
 .sprite-icon-calendar-down {
-	width: 21px;
-	height: 22px;
-	background-position: -851px -5px;
+  width: 21px;
+  height: 22px;
+  background-position: -851px -5px;
 }
+
 .sprite-icon-calendar-hvr {
-	width: 21px;
-	height: 22px;
-	background-position: -882px -5px;
+  width: 21px;
+  height: 22px;
+  background-position: -882px -5px;
 }
+
 .sprite-icon-gift {
-	width: 64px;
-	height: 76px;
-	background-position: -913px -5px;
+  width: 64px;
+  height: 76px;
+  background-position: -913px -5px;
 }
+
 .sprite-icon-house {
-	width: 75px;
-	height: 72px;
-	background-position: -987px -5px;
+  width: 75px;
+  height: 72px;
+  background-position: -987px -5px;
 }
+
 .sprite-icon-indicator1 {
-	width: 11px;
-	height: 10px;
-	background-position: -1072px -5px;
+  width: 11px;
+  height: 10px;
+  background-position: -1072px -5px;
 }
+
 .sprite-icon-indicator2 {
-	width: 11px;
-	height: 10px;
-	background-position: -1093px -5px;
+  width: 11px;
+  height: 10px;
+  background-position: -1093px -5px;
 }
+
 .sprite-icon-star {
-	width: 18px;
-	height: 17px;
-	background-position: -1114px -5px;
+  width: 18px;
+  height: 17px;
+  background-position: -1114px -5px;
 }
+
 .sprite-minus {
-	width: 12px;
-	height: 3px;
-	background-position: -1142px -5px;
+  width: 12px;
+  height: 3px;
+  background-position: -1142px -5px;
 }
+
 .sprite-plus {
-	width: 11px;
-	height: 11px;
-	background-position: -1164px -5px;
+  width: 11px;
+  height: 11px;
+  background-position: -1164px -5px;
 }
+
 .sprite-sprite-fb {
-	width: 47px;
-	height: 48px;
-	background-position: -1185px -5px;
+  width: 47px;
+  height: 48px;
+  background-position: -1185px -5px;
 }
+
 .sprite-sprite-fb-down {
-	width: 47px;
-	height: 48px;
-	background-position: -1242px -5px;
+  width: 47px;
+  height: 48px;
+  background-position: -1242px -5px;
 }
+
 .sprite-sprite-fb-hvr {
-	width: 47px;
-	height: 48px;
-	background-position: -1299px -5px;
+  width: 47px;
+  height: 48px;
+  background-position: -1299px -5px;
 }
+
 .sprite-sprite-tw {
-	width: 44px;
-	height: 46px;
-	background-position: -1356px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1356px -5px;
 }
+
 .sprite-sprite-tw-down {
-	width: 46px;
-	height: 48px;
-	background-position: -1410px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1412px -5px;
 }
+
 .sprite-sprite-tw-hvr {
-	width: 46px;
-	height: 48px;
-	background-position: -1466px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1468px -5px;
 }
+
 .sprite-sprite-yt {
-	width: 46px;
-	height: 48px;
-	background-position: -1522px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1524px -5px;
 }
+
 .sprite-sprite-yt-down {
-	width: 46px;
-	height: 48px;
-	background-position: -1578px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1580px -5px;
 }
+
 .sprite-sprite-yt-hvr {
-	width: 46px;
-	height: 48px;
-	background-position: -1634px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1636px -5px;
 }
+
 wrapper {
 	display: block;
 	width: 1200px;
@@ -422,64 +450,64 @@ nav .main-nav{
 	text-decoration: none;
 }
 .sprite-sprite-fb {
-	width: 47px;
-	height: 48px;
-	background-position: -1185px -5px;
+  width: 47px;
+  height: 48px;
+  background-position: -1185px -5px;
 }
 .sprite-sprite-fb-down:active {
-	width: 47px;
-	height: 48px;
-	background-position: -1242px -5px;
+  width: 47px;
+  height: 48px;
+  background-position: -1242px -5px;
 }
 .sprite-sprite-fb-hvr:hover {
-	width: 47px;
-	height: 48px;
-	background-position: -1299px -5px;
+  width: 47px;
+  height: 48px;
+  background-position: -1299px -5px;
 }
 .sprite-sprite-tw {
-	width: 44px;
-	height: 46px;
-	background-position: -1356px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1356px -5px;
 }
 .sprite-sprite-tw-down:active {
-	width: 46px;
-	height: 48px;
-	background-position: -1410px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1412px -5px;
 }
 .sprite-sprite-tw-hvr:hover {
-	width: 46px;
-	height: 48px;
-	background-position: -1466px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1468px -5px;
 }
 .sprite-sprite-yt {
-	width: 46px;
-	height: 48px;
-	background-position: -1522px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1524px -5px;
 }
 .sprite-sprite-yt-down:active {
-	width: 46px;
-	height: 48px;
-	background-position: -1578px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1580px -5px;
 }
 .sprite-sprite-yt-hvr:hover {
-	width: 46px;
-	height: 48px;
-	background-position: -1634px -5px;
+  width: 46px;
+  height: 48px;
+  background-position: -1636px -5px;
 }
 .sprite-ha {
-	width: 113px;
-	height: 39px;
-	background-position: -367px -5px;
+  width: 113px;
+  height: 39px;
+  background-position: -367px -5px;
 }
 .sprite-ha-down:active {
-	width: 113px;
-	height: 39px;
-	background-position: -490px -5px;
+  width: 113px;
+  height: 39px;
+  background-position: -490px -5px;
 }
 .sprite-ha-hvr:hover {
-	width: 113px;
-	height: 39px;
-	background-position: -613px -5px;
+  width: 113px;
+  height: 39px;
+  background-position: -613px -5px;
 }
 .form-filter{
 	width: 1200px;
@@ -581,7 +609,6 @@ input[type="checkbox"]:checked+label::after{
 	text-align: center;
 	font-size: 12px;
 	font-weight: normal;
-	color: #b1b1b1;
 }
 .sorting-item a:hover{
 	color: #81b3d2;
@@ -609,6 +636,7 @@ input[type="checkbox"]:checked+label::after{
 .sorting-item ul a{
 	text-decoration: none;
 	font-size: 12px;
+	color: #b1b1b1;
 }
 .sorting-change{
 	width: 110px;
