@@ -628,16 +628,17 @@ input[type="checkbox"]:checked+label::after{
 }
 .hotel{
 	height: 450px;
-	padding: 20px 72px;
-	border: 1px #e5e5e5 solid;
-	border-top: #fff;
 }
 .catalog-hotel{
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
 	flex-wrap: wrap;
+	width: 1200px;
 	height: 150px;
+	padding: 30px 72px;
+	border: 1px #e5e5e5 solid;
+	border-top: #fff;
 }
 .catalog-image{
 	width: 165px;
@@ -647,7 +648,7 @@ input[type="checkbox"]:checked+label::after{
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	width: 770px;
+	width: 750px;
 	height: 90px;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -710,7 +711,7 @@ input[type="checkbox"]:checked+label::after{
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 13px;
-	padding-top: 5px;
+	padding-top: 3px;
 }
 .catalog-item-hotel a:hover{
 	background: #669ec0;
@@ -735,7 +736,7 @@ input[type="checkbox"]:checked+label::after{
 	background: #766357;
 	color: #fff;
 	text-decoration: none;
-	padding-top: 5px;
+	padding-top: 3px;
 	font-weight: bold;
 	font-size: 13px;
 }
