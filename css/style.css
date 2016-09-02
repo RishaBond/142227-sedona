@@ -390,9 +390,6 @@ nav .main-nav{
 	height: 593px;
 	width: 100%;
 }
-.main-footer{
-	height: 120px;
-}
 .footer-visit{
 	display: flex;
 	justify-content: center;
@@ -563,6 +560,8 @@ input[type="checkbox"]:checked+label::after{
 	text-transform: uppercase;
 	font-weight: bold;
 	height: 82px;
+	border: 1px #e5e5e5 solid;
+
 }
 .sorting-find{
 	display: flex;
@@ -582,6 +581,13 @@ input[type="checkbox"]:checked+label::after{
 	text-align: center;
 	font-size: 12px;
 	font-weight: normal;
+	color: #b1b1b1;
+}
+.sorting-item a:hover{
+	color: #81b3d2;
+}
+.sorting-item a:active{
+	color: #000000;
 }
 .sorting-item span{
 	padding-right: 10px;
@@ -621,8 +627,10 @@ input[type="checkbox"]:checked+label::after{
 	background-position: -1093px -5px;
 }
 .hotel{
-	height: 490px;
+	height: 450px;
 	padding: 20px 72px;
+	border: 1px #e5e5e5 solid;
+	border-top: #fff;
 }
 .catalog-hotel{
 	display: flex;
@@ -639,7 +647,7 @@ input[type="checkbox"]:checked+label::after{
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
-	width: 781px;
+	width: 770px;
 	height: 90px;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -649,11 +657,12 @@ input[type="checkbox"]:checked+label::after{
 	width: 100%;
 	margin: 0;
 	color: #000;
+	font-size: 21px;
 }
 .catalog h1 a{
 	text-decoration: none;
 	color: #000;
-	font-size: 21px;
+	text-align: top;
 }
 .catalog h1 a:hover{
 	color: #81b3d2;
@@ -663,6 +672,7 @@ input[type="checkbox"]:checked+label::after{
 }
 .rating{
 	width: 110px;
+	height: 90px;
 	text-transform: uppercase;
 	font-size: 14px;
 	text-align: center;
