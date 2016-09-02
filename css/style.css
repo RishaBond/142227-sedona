@@ -191,6 +191,12 @@ nav .main-nav{
 	text-decoration: none;
 	color: #000;
 }
+.main-nav:first-child:hover{
+	color: #81b3d2;
+}
+.main-nav:first-child:active{
+	color: #b2b2b2;
+}
 .main-nav li:nth-child(2){
 	margin-right: 240px;
 }
@@ -418,62 +424,62 @@ nav .main-nav{
 	color: #000;
 	text-decoration: none;
 }
-.sprite-sprite-fb::before {
+.sprite-sprite-fb {
 	width: 47px;
 	height: 48px;
 	background-position: -1185px -5px;
 }
-.sprite-sprite-fb-down:active:before {
+.sprite-sprite-fb-down:active {
 	width: 47px;
 	height: 48px;
 	background-position: -1242px -5px;
 }
-.sprite-sprite-fb-hvr:hover:before {
+.sprite-sprite-fb-hvr:hover {
 	width: 47px;
 	height: 48px;
 	background-position: -1299px -5px;
 }
-.sprite-sprite-tw::before {
+.sprite-sprite-tw {
 	width: 44px;
 	height: 46px;
 	background-position: -1356px -5px;
 }
-.sprite-sprite-tw-down:active:before {
+.sprite-sprite-tw-down:active {
 	width: 46px;
 	height: 48px;
 	background-position: -1410px -5px;
 }
-.sprite-sprite-tw-hvr:hover:before {
+.sprite-sprite-tw-hvr:hover {
 	width: 46px;
 	height: 48px;
 	background-position: -1466px -5px;
 }
-.sprite-sprite-yt::before {
+.sprite-sprite-yt {
 	width: 46px;
 	height: 48px;
 	background-position: -1522px -5px;
 }
-.sprite-sprite-yt-down:active:before {
+.sprite-sprite-yt-down:active {
 	width: 46px;
 	height: 48px;
 	background-position: -1578px -5px;
 }
-.sprite-sprite-yt-hvr:hover:before {
+.sprite-sprite-yt-hvr:hover {
 	width: 46px;
 	height: 48px;
 	background-position: -1634px -5px;
 }
-.sprite-ha::before {
+.sprite-ha {
 	width: 113px;
 	height: 39px;
 	background-position: -367px -5px;
 }
-.sprite-ha-down:active:before {
+.sprite-ha-down:active {
 	width: 113px;
 	height: 39px;
 	background-position: -490px -5px;
 }
-.sprite-ha-hvr:hover:before {
+.sprite-ha-hvr:hover {
 	width: 113px;
 	height: 39px;
 	background-position: -613px -5px;
@@ -507,7 +513,7 @@ nav .main-nav{
 	font-size: 16px;
 }
 .set-item label{
-	font-size: 16px;
+	font-size: 14px;
 }
 input[type="checkbox"]{
 	display: none;
@@ -575,6 +581,10 @@ input[type="checkbox"]:checked+label::after{
 	width: 781px;
 	text-align: center;
 	font-size: 12px;
+	font-weight: normal;
+}
+.sorting-item span{
+	padding-right: 10px;
 }
 .sorting-item ul{
 	display: flex;
@@ -588,7 +598,6 @@ input[type="checkbox"]:checked+label::after{
 	align-items: center;
 	text-align: center;
 	width: 100px;
-	padding-left: 15px;
 	text-align: center;
 }
 .sorting-item ul a{
