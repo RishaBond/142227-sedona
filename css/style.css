@@ -4,8 +4,8 @@
 						box-sizing: border-box;
 }
 @font-face {
-    font-family: "PTSansRegular";
-    src:url("../fonts/PTSansRegular.woff") format("woff"),
+    font-family: "PT Sans";
+    src:url("../fonts/PTSansRegular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
@@ -37,7 +37,7 @@ li {
 }
 body {
 	width: 100%;
-	font-family: "PT Sans", "Arial" sans-serif;
+	font-family: "PT Sans", sans-serif;
 	padding: 0 35px;
 }
 header{
@@ -244,13 +244,21 @@ wrapper {
 	margin: 0 auto;
 	align-items: center;
 	box-shadow:
-		10px 0 15px -10px rgba(0, 0, 0, 0.2),
-		-10px 0 15px -10px rgba(0, 0, 0, 0.2);
+		10px 0 15px -10px rgba(0, 0, 0, 0.3),
+		-10px 0 15px -10px rgba(0, 0, 0, 0.3);
 }
 .main-nav{
 	width: 1200px;
-	height: 60px;
+	height: 55px;
 	background-color: #fff;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #ffffff;
 }
 .main-nav ul{
 	display: flex;
@@ -262,14 +270,6 @@ wrapper {
 	text-align: center;
 	list-style-type: none;
 	margin-top: 0;
-}
-.menu {
-	display: flex;
-	flex-direction: row;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	background-color: #ffffff;
 }
 .menu li {
 	box-sizing: border-box;
@@ -300,8 +300,7 @@ wrapper {
 	color: #81b3d2;
 }
 .menu a:active {
-	opacity: 0.3;
-	color: #000000;
+	color: #b2b2b2;
 }
 .menu-active{
 	color: #766357;
@@ -324,14 +323,14 @@ wrapper {
 .background{
 	background-image: url(../img/background.jpg);
 	width: 1200px;
-	height: 510px;
+	height: 508px;
 }
 .on-background{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding-top: 75px;
-	margin-bottom: 28px;
+	margin-bottom: 24px;
 }
 .after-background{
 	display: flex;
@@ -344,8 +343,8 @@ wrapper {
 	text-align: center;
 	width: 550px;
 	min-height: 100px;
-	margin: 20px auto;
-	padding: 20px;
+	margin: 30px auto;
+	padding: 10px;
 	text-transform: uppercase;
 	line-height: 1.5;
 }
@@ -370,7 +369,7 @@ wrapper {
 	width: 400px;
 	min-height: 256px;
 	background-color: #81b3d2;
-	padding-top: 32px;
+	padding-top: 30px;
 	text-transform: uppercase;
 	line-height: 21px;
 }
@@ -762,7 +761,6 @@ input[type="checkbox"]:disabled:checked + label:after {
 .cost input {
   width: 50px;
   color: #ffffff;
-  height: 33px;
   border: none;
   outline: none;
   background: none;
