@@ -4,9 +4,10 @@
 						box-sizing: border-box;
 }
 @font-face {
-	font-family: "PT Sans";
-	src: url("../fonts/PT_Sans-Web-Regular.ttf") format("ttf"),
-	url("../fonts/PT_Sans-Web-Bold.ttf") format("ttf");
+    font-family: "PTSansRegular";
+    src:url("../fonts/PTSansRegular.woff") format("woff"),
+    font-style: normal;
+    font-weight: normal;
 }
 a {
 	text-decoration: none;
@@ -36,7 +37,7 @@ li {
 }
 body {
 	width: 100%;
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial" sans-serif;
 	padding: 0 35px;
 }
 header{
@@ -640,7 +641,7 @@ wrapper {
 	flex-direction: column;
 	text-transform: uppercase;
 	padding-left: 72px;
-	width: 255px;
+	width: 270px;
 	font-size: 14px;
 	line-height: 21px;
 }
@@ -712,7 +713,7 @@ input[type="checkbox"]:disabled:checked + label:after {
 	left: 0;
 }
 .set-cost {
-  width: 328px;
+  width: 325px;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -722,14 +723,13 @@ input[type="checkbox"]:disabled:checked + label:after {
   margin-bottom: 10px;
 }
 .cost{
-	width: 328px;
-	padding-top: 12px;
+	width: 325px;
 	color: #ffffff;
   text-transform: uppercase;
 }
 .cost {
   position: relative;
-  height: 33px;
+  height: 35px;
   margin-bottom: 20px;
   border: 2px solid #ffffff;
   border-radius: 2px;
@@ -746,47 +746,61 @@ input[type="checkbox"]:disabled:checked + label:after {
   background: #ffffff;
 }
 .cost label {
-  display: inline-block;
-  vertical-align: top;
+  display: inline;
   font-size: 14px;
   line-height: 30px;
+  padding-right: 20px;
   cursor: pointer;
 }
 .cost .min,
 .cost .max {
-  width: 90px;
-  padding-left: 65px;
+  width: 100px;
+  padding-left: 60px;
 }
 .cost input {
   width: 50px;
-  height: 33px;
-  margin: 0;
-  padding-bottom: 15px;
   color: #ffffff;
+  height: 33px;
   border: none;
   outline: none;
   background: none;
 }
-.cost .change-line {
-  height: 2px;
-  background: rgba(255, 255, 255, 0.4);
+.cost-change{
+	margin-bottom: 50px;
 }
 .line {
-  width: 80%;
+  position: absolute;
+  display: inline-block;
+  width: 310px;
   height: 2px;
-  background: #ffffff;
+  background-color: #978481;
+  z-index: 1;
+}
+.progress {
+  position: absolute;
+  display: inline-block;
+  background-color: #ffffff;
+  width: 256px;
+  height: 2px;
+  z-index: 2;
 }
 .sprite-circle1 {
 	width: 20px;
 	height: 23px;
 	background-position: -159px -7px;
-	left: 0;
+	position: absolute;
+  margin-top: -11px;
+  margin-left: 0px;
+  z-index: 3;
 }
-.sprite-circle2:hover {
+.sprite-circle2 {
 	width: 20px;
 	height: 23px;
 	background-position: -193px -7px;
-	left: 75%;
+	position: absolute;
+	left: 70%;
+  margin-top: -11px;
+  z-index: 3;
 }
 .set-btn {
   display: block;
@@ -799,7 +813,8 @@ input[type="checkbox"]:disabled:checked + label:after {
   line-height: 20px;
   border: 2px solid #ffffff;
   border-radius: 2px;
-  outline: none;
+  width: 133px;
+  height: 35px;
   background: transparent;
 }
 .set-btn:hover {
@@ -812,6 +827,7 @@ input[type="checkbox"]:disabled:checked + label:after {
 	align-items: center;
 	text-transform: uppercase;
 	font-weight: bold;
+	background-color: #fefefe;
 	height: 82px;
 	border: 1px #e5e5e5 solid;
 }
@@ -832,7 +848,12 @@ input[type="checkbox"]:disabled:checked + label:after {
 	width: 781px;
 	text-align: center;
 	font-size: 12px;
+	line-height: 18px;
 	font-weight: normal;
+}
+.sorting-item .active{
+	color: #81b3d2;
+	border-bottom: 0; 
 }
 .sorting-item a:hover{
 	color: #81b3d2;
@@ -854,12 +875,15 @@ input[type="checkbox"]:disabled:checked + label:after {
 	justify-content: flex-start;
 	align-items: center;
 	text-align: center;
-	width: 100px;
+	width: 120px;
 	text-align: center;
 }
 .sorting-item ul a{
+	margin-right: 30px;
+	color: rgba(0,0,0,0.3);
+	border-bottom: 1px dotted rgba(0,0,0,0.3);
 	font-size: 12px;
-	color: #b1b1b1;
+	line-height: 18px;
 }
 .sorting-change{
 	width: 110px;
