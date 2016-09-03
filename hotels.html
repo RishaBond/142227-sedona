@@ -5,25 +5,16 @@
 	    <title>Седона</title>
 	    <link rel="stylesheet" href="css/normalize.css">
 			<link rel="stylesheet" href="css/style.css">
-			<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
 	</head>
 	<body>
 	  <wrapper>
 	    <header class="main-header">
-        <nav class="main-nav hotel-nav">
-          <ul>
-            <li>
-              <a href="#">Информация</a>
-            </li>
-            <li>
-              <a href="#">Фото и видео</a>
-            </li>
-            <li>
-              <a href="#">Карта штата</a>
-            </li>
-            <li>
-              <a href="hotels.html">Гостиницы</a>
-            </li>
+        <nav class="main-nav ">
+          <ul class="menu">
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            <li><a href="#">Карта штата</a></li>
+            <li><a class="menu-active" href="hotels.html">Гостиницы</a></li>
           </ul>
         </nav>
         <div class="logo">
@@ -32,34 +23,52 @@
 	    </header>
 	    <main class="content">
 		    <section class="set">
-					<form class="form-filter">
-						<div class="set-item">
+					<form class="form-filter" action="#">
+						<div class="infra">
 				    	<h2>Инфраструктура:</h2>
+				    	<div class="set-form">
 				    		<input type="checkbox" id="ch1"name="pool" checked>
 				    		<label for="ch1">Бассейн</label>
+				    	</div>
+				    	<div class="set-form">
 				    		<input type="checkbox" id="ch2" name="parcking">
 				    		<label for="ch2">Парковка</label>
+				    	</div>
+				    	<div class="set-form">
 				    		<input type="checkbox" id="ch3" name="wi-fi">
 				    		<label for="ch3">WI-FI</label>
+				    	</div>
 				    </div>
-				    <div class="set-item">
+				    <div class="home-type">
 				    	<h2>Тип жилья:</h2>
+				    	<div class="set-form">
 				    		<input type="checkbox" id="ch4" name="hostel" checked>
 				    		<label for="ch4">Гостиницы</label>
+				    	</div>
+				    	<div class="set-form">
 				    		<input type="checkbox" id="ch5" name="motel" checked>
 				    		<label for="ch5">Мотель</label>
+				    	</div>
+				    	<div class="set-form">
 				    		<input type="checkbox" id="ch6" name="appartment" checked>
 				    		<label for="ch6">Апартаменты</label>
+				    	</div>
 				    </div>
-				    <div class="set-item cost">
-				    	<h2>Стоимость в сутки(р):</h2>
-								<div class="set-item from">
-									<table>
-										<tr>От 0   </tr>
-										<tr>До 3000</tr>
-									</table>
-								</div>
-						</div>
+				    <div class="set-cost">
+				    	<h2>Стоимость в сутки (р):</h2>
+      				<div class="cost">
+	      				<label class="min">от <input type="text" name="min" value="0"></label>
+	        			<label class="max">до <input type="text" name="max" value="3000"></label>
+      				</div>
+      				<div class="cost-change">
+      					<div class="change ">
+          				<div class="line"></div>
+        				</div>
+        				<div class="sprite sprite-circle1 sprite-circle2"></div>
+        				<div class=" sprite sprite-circle1 sprite-circle2"></div>
+      				</div>
+      				<button class="set-btn" type="submit">Показать</button>
+    				</div>
 					</form>
 		    </section>
 		    <section class="sorting">
