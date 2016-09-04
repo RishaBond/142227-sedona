@@ -84,34 +84,42 @@
           <p>Большинство едет в Гранд Каньон и <br>толпится там</p>
         </div>
       </section>
-	    <section class="choose-hotel">
+	    <section class="review-choose">
 	    		<h3>Заинтересовались?</h3>
 	    		<p>Укажите предполагаемые даты поездки <br>и мы покажем вам лучшие предложения гостиниц в седонеы</p>
-	    		<a href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+	    		<a for="hotels" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
 	    </section>
-	    <!--
-      <section class="form">
-      	<form>
-			  	<div class="form-label">
-			  		<p>Дата заезда:</p> 
-			  		<input class="form-input" type="date" name="calendar">
-			  	</div>
-			  	<div class="form-label">
-			  		<p>Дата выезда:</p> 
-			  		<input class="form-input" type="date" name="calendar">
-			  	</div>
-					<div class="selection">
-            <input type="text" name="adults" value="" placeholder="ВЗРОСЛЫЕ">
-         	</div>
-         	<div class="selection">
-            <input type="tel" name="children" value="" placeholder="ДЕТИ">
-	        </div>
-	        <a class="btn" type="submit">НАЙТИ</a>
-        </form>
-      </section>
-      -->
-      <section class="map">
-      	<img src="img/map1.png" width="1200" height="593" alt="Горы">
+      <section class="form-choose">
+      	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.135625918505!2d-111.83015790055562!3d34.85444386526261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1472101340588" width="1200" height="595" style="border:0" allowfullscreen></iframe>
+      	<div class="choose-hotels">
+    			<form id="hotels" class="choose-hotels-details">
+            <div class="date-in">
+      				<label for="date-in">Дата заезда:</label>
+    	  			<input id="date-in" type="text" value="24 апреля 2016">
+              <a class="sprite sprite-icon-calendar sprite-icon-calendar-down sprite-icon-calendar-hvr"></a>
+            </div>
+            <div class="date-out">
+    	  			<label for="date-out">Дата выезда:</label>
+    	  			<input id="date-out" type="text" value="4 июля 2016">
+              <a class="sprite sprite-icon-calendar sprite-icon-calendar-down sprite-icon-calendar-hvr"></a>
+            </div>
+            <div class="people">
+              <div class="adults">
+      	  			<label for="adult">Взрослые:</label>
+                <button class="sprite sprite-minus sprite-minus-hvr sprite-minus-down"></button>
+                <input id="adult" type="text" value="2">
+                <button class="sprite sprite-plus sprite-plus-hvr sprite-plus-down"></button>
+              </div>
+              <div class="children">
+      	  			<label for="children">Дети:</label>
+                <button class="sprite sprite-minus sprite-minus-hvr sprite-minus-down"></button>
+      	  			<input id="children" type="text" value="0">
+                <button class="sprite sprite-plus sprite-plus-hvr sprite-plus-down"></button>
+              </div>
+            </div>
+            <input class="find-hotels" type="button" value="Найти">
+    			</form>
+        </div>
       </section>
     </main>
     <footer class="main-footer">
