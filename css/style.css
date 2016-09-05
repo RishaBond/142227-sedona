@@ -18,7 +18,6 @@ img {
 }
 h2 {
 	color: #000000;
-
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 21px;
@@ -37,8 +36,7 @@ li {
 }
 body {
 	width: 100%;
-	font-family: "PT Sans", sans-serif;
-	padding: 0 35px;
+	font-family: "PT Sans", "Arial" sans-serif;
 }
 header{
 	position: relative;
@@ -302,13 +300,13 @@ wrapper {
 .menu a:active {
 	color: #b2b2b2;
 }
-.menu-active{
+ul .menu-active{
 	color: #766357;
 }
-.menu-active:hover {
+ul .menu-active:hover {
 	color: #604e43;
 }
-.menu-active:active {
+ul .menu-active:active {
 	color: #766357;
 }
 .logo{
@@ -321,6 +319,7 @@ wrapper {
 	font-size: 0;
 }
 .background{
+	background: #4277a3;
 	background-image: url(../img/background.jpg);
 	width: 1200px;
 	height: 508px;
@@ -497,7 +496,6 @@ wrapper {
 	text-transform: uppercase;
 }
 .form-choose{
-	background-image: url(../img/map1.png);
 	position: relative;
 	height: 595px;
 }
@@ -534,7 +532,7 @@ wrapper {
 	width: 568px;
 	transform: translateX(-50%);
 	background-color: #ffffff;
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial" sans-serif;
 }
 .form-choose label {
 	margin-right: 20px;
@@ -559,7 +557,7 @@ wrapper {
 	min-width: 95px;
 	font-size: 14px;
 	font-weight: bold;
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial" sans-serif;
 	text-transform: uppercase;
 }
 .date-in input {
@@ -593,7 +591,7 @@ wrapper {
 	min-width: 95px;
 	font-size: 14px;
 	font-weight: bold;
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial" sans-serif;
 	text-transform: uppercase;
 }
 .date-out input {
@@ -661,7 +659,7 @@ wrapper {
 	line-height: 32px;
 	font-size: 14px;
 	font-weight: bold;
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial" sans-serif;
 	text-transform: uppercase;
 }
 .adult input{
@@ -680,7 +678,7 @@ wrapper {
 	line-height: 32px;
 	font-size: 14px;
 	font-weight: bold;
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", "Arial" sans-serif;
 	text-transform: uppercase;
 }
 .children input{
@@ -845,7 +843,7 @@ wrapper {
 .form-filter {
 	display: flex;
 	color: #ffffff;
-	background-color: #487596;
+	background: #487596;
 	background-image: url(../img/background2.jpg);
 	padding-top: 15px;
 	padding-bottom: 9px;
