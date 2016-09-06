@@ -532,7 +532,7 @@ ul .menu-active:active {
 	width: 568px;
 	transform: translateX(-50%);
 	background-color: #ffffff;
-	font-family: "PT Sans", "Arial" sans-serif;
+	font-family: "PT Sans", sans-serif;
 }
 .form-choose label {
 	margin-right: 20px;
@@ -557,7 +557,7 @@ ul .menu-active:active {
 	min-width: 95px;
 	font-size: 14px;
 	font-weight: bold;
-	font-family: "PT Sans", "Arial" sans-serif;
+	font-family: "PT Sans", sans-serif;
 	text-transform: uppercase;
 }
 .date-in input {
@@ -591,7 +591,7 @@ ul .menu-active:active {
 	min-width: 95px;
 	font-size: 14px;
 	font-weight: bold;
-	font-family: "PT Sans", "Arial" sans-serif;
+	font-family: "PT Sans", sans-serif;
 	text-transform: uppercase;
 }
 .date-out input {
@@ -736,11 +736,19 @@ ul .menu-active:active {
 }
 .main-footer{
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	justify-content: space-around;
 	text-transform: uppercase;
 	width: 1200px;
 	height: 123px;
+	background-color: #ffffff;
+	position: absolute;
+}
+.first{
+		margin-top: -123px;
+		position: absolute;
 }
 .footer-visit{
 	display: flex;
@@ -785,30 +793,35 @@ ul .menu-active:active {
 	background-position: -7px -147px;
 }
 .footer-social{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	width: 400px;
-	margin: 0 auto;
+	margin-left: 7px;
+	padding-bottom: 3px;
+	text-align: center;
 	font-size: 0;
+}
+.social-btn{
+	position: relative;
+	display: inline-block;
+	width: 46px;
+	height: 48px;
+	margin-right: 2px;
+	text-align: center;
+	vertical-align: top;
 }
 .sprite-sprite-fb {
 	width: 47px;
 	height: 48px;
 	background-position: -190px -249px;
-	margin: 5px;
 }
 .sprite-sprite-fb-down:active {
 	width: 47px;
 	height: 48px;
 	background-position: -251px -249px;
-	margin: 5px;
 }
 .sprite-sprite-fb-hvr:hover {
 	width: 47px;
 	height: 48px;
 	background-position: -333px -7px;
-	margin: 5px;
 }
 .sprite-sprite-tw {
 	width: 46px;
