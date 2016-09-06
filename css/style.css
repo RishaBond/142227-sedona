@@ -241,6 +241,8 @@ wrapper {
 	width: 1200px;
 	margin: 0 auto;
 	align-items: center;
+}
+.container{
 	box-shadow:
 		10px 0 15px -10px rgba(0, 0, 0, 0.3),
 		-10px 0 15px -10px rgba(0, 0, 0, 0.3);
@@ -488,7 +490,7 @@ wrapper {
 	justify-content: center;
 	width: 568px;
 	height: 87px;
-	margin-top: 35px;
+	margin-top: 25px;
 	margin-bottom: 0;
 	background-color: #766357;
 	color: #ffffff;
@@ -769,6 +771,8 @@ wrapper {
 	height: 123px;
 	background-color: #ffffff;
 	position: absolute;
+	border: 1px #e5e5e5 solid;
+	border-top: #fff;
 }
 .first{
 		margin-top: -123px;
