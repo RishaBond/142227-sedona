@@ -371,7 +371,7 @@ wrapper {
 	width: 400px;
 	min-height: 256px;
 	background-color: #81b3d2;
-	padding-top: 30px;
+	padding-top: 25px;
 	text-transform: uppercase;
 	line-height: 21px;
 }
@@ -429,12 +429,14 @@ wrapper {
 .promo-item h2{
 	font-size: 21px;
 	line-height: 1;
-	padding-top: 15px; 
 }
 .promo-item p{
 	font-weight: normal;
 	font-size: 14px;
 	color: #333333;
+	margin-top: 10px;
+}
+.promo-up p{
 	margin-top: 5px;
 }
 .sprite-icon-burger {
@@ -568,6 +570,7 @@ wrapper {
 	max-width: 329px;
 	height: 33px;
 	padding-left: 15px;
+	margin-top: 4px;
 }
 .date-in input:hover {
 	border: 2px solid #ebebeb;
@@ -584,7 +587,7 @@ wrapper {
 	flex-direction: row;
 	position: relative;
 	max-width: 460px;
-	margin-top: 54px;
+	margin-top: 30px;
 }
 .date-out label {
 	line-height: 32px;
@@ -602,6 +605,7 @@ wrapper {
 	max-width: 329px;
 	height: 33px;
 	padding-left: 15px;
+	margin-top: 4px;
 }
 .date-out input:hover {
 	border: 2px solid #ebebeb;
@@ -661,10 +665,12 @@ wrapper {
 	display: flex;
 	flex-direction: row;
 	width: 230px;
+	padding-right: 15px;
+	text-align: left;
 }
 .adult label{
 	margin:0;
-	width: 95px;
+	width: 110px;
 	line-height: 32px;
 	font-size: 14px;
 	font-weight: bold;
@@ -675,15 +681,17 @@ wrapper {
 	width: 34px;
 	height: 38px;
 	background: #f2f2f2;
+	margin-top: 3px;
 }
 .children {
 	display: flex;
 	flex-direction: row;
 	width: 230px;
+	text-align: center;
 }
 .children label{
 	margin:0;
-	width: 95px;
+	width: 110px;
 	line-height: 32px;
 	font-size: 14px;
 	font-weight: bold;
@@ -694,31 +702,38 @@ wrapper {
 	width: 34px;
 	height: 38px;
 	background: #f2f2f2;
+	margin-top: 3px;
 }
 .minus {
+	margin-top: 3px;
 	font-size: 24px;
 	font-weight: bold;
 }
 .minus:hover {
+	margin-top: 3px;
 	font-size: 24px;
 	font-weight: bold;
 	color: #000000;
 }
 .minus:active {
+	margin-top: 3px;
 	font-size: 24px;
 	font-weight: bold;
 	color: #81b3d2;
 }
 .plus {
+	margin-top: 3px;
 	font-size: 24px;
 	font-weight: bold;
 }
 .plus:hover {
+	margin-top: 3px;
 	font-size: 24px;
 	font-weight: bold;
 	color: #000000;
 }
 .plus:active {
+	margin-top: 3px;
 	font-size: 24px;
 	font-weight: bold;
 	color: #81b3d2;
