@@ -300,13 +300,13 @@ wrapper {
 .menu a:active {
 	color: #b2b2b2;
 }
-ul .menu-active{
+.menu-active a{
 	color: #766357;
 }
-ul .menu-active:hover {
+.menu-active a:hover {
 	color: #604e43;
 }
-ul .menu-active:active {
+.menu-active a:active {
 	color: #766357;
 }
 .logo{
@@ -612,16 +612,25 @@ ul .menu-active:active {
 	background-color: #ffffff;
 }
 .sprite-icon-calendar {
+	position: absolute;
+	top: 6px;
+	right: 6px;
 	width: 21px;
 	height: 22px;
 	background-position: -261px -91px;
 }
-.sprite-icon-calendar-down:active {
+.sprite-icon-calendar:active {
+	position: absolute;
+	top: 6px;
+	right: 6px;
 	width: 21px;
 	height: 22px;
 	background-position: -296px -91px;
 }
-.sprite-icon-calendar-hvr:hover {
+.sprite-icon-calendar:hover {
+	position: absolute;
+	top: 6px;
+	right: 6px;
 	width: 21px;
 	height: 22px;
 	background-position: -261px -127px;
@@ -782,12 +791,12 @@ ul .menu-active:active {
 	height: 39px;
 	background-position: -7px -94px;
 }
-.sprite-ha-down:active {
+.sprite-ha:active {
 	width: 113px;
 	height: 39px;
 	background-position: -134px -94px;
 }
-.sprite-ha-hvr:hover {
+.sprite-ha:hover {
 	width: 113px;
 	height: 39px;
 	background-position: -7px -147px;
@@ -813,12 +822,12 @@ ul .menu-active:active {
 	height: 48px;
 	background-position: -190px -249px;
 }
-.sprite-sprite-fb-down:active {
+.sprite-sprite-fb:active {
 	width: 47px;
 	height: 48px;
 	background-position: -251px -249px;
 }
-.sprite-sprite-fb-hvr:hover {
+.sprite-sprite-fb:hover {
 	width: 47px;
 	height: 48px;
 	background-position: -333px -7px;
@@ -828,12 +837,12 @@ ul .menu-active:active {
 	height: 48px;
 	background-position: -333px -69px;
 }
-.sprite-sprite-tw-down:active {
+.sprite-sprite-tw:active {
 	width: 46px;
 	height: 48px;
 	background-position: -326px -131px;
 }
-.sprite-sprite-tw-hvr:hover {
+.sprite-sprite-tw:hover {
 	width: 46px;
 	height: 48px;
 	background-position: -327px -193px;
@@ -843,12 +852,12 @@ ul .menu-active:active {
 	height: 48px;
 	background-position: -7px -255px;
 }
-.sprite-sprite-yt-down:active {
+.sprite-sprite-yt:active {
 	width: 46px;
 	height: 48px;
 	background-position: -312px -255px;
 }
-.sprite-sprite-yt-hvr:hover {
+.sprite-sprite-yt:hover {
 	width: 46px;
 	height: 48px;
 	background-position: -7px -317px;
